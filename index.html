@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Beautiful Form Component</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="#" class="form">
+        <div class="form__heading">
+          <h3 class="form__title">Get in touch with us</h3>
+        </div>
+
+        <div class="form__group">
+          <input
+            type="text"
+            id="name"
+            class="form__input"
+            placeholder="Full Name"
+            required
+          />
+          <label for="name" class="form__label">Full Name</label>
+        </div>
+        <div class="form__group">
+          <input
+            type="email"
+            id="email"
+            class="form__input"
+            placeholder="Email address"
+            required
+          />
+          <label for="email" class="form__label">Email address</label>
+        </div>
+        <div class="form__group">
+          <input
+            type="text"
+            id="institution"
+            class="form__input"
+            placeholder="Institution"
+            required
+          />
+          <label for="institution" class="form__label">Institution</label>
+        </div>
+        <div class="form__group">
+          <div class="form__radio-group">
+            <input
+              type="radio"
+              class="form__radio-input"
+              id="male"
+              name="size"
+            />
+            <label for="male" class="form__radio-label"
+              ><span class="form__radio-button"></span>Male</label
+            >
+          </div>
+          <div class="form__radio-group">
+            <input
+              type="radio"
+              class="form__radio-input"
+              id="female"
+              name="size"
+            />
+            <label for="female" class="form__radio-label"
+              ><span class="form__radio-button"></span>Female</label
+            >
+          </div>
+        </div>
+
+        <div class="form__group">
+          <button class="btn">Submit &rarr;</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
