@@ -1,2 +1,2 @@
 # form-component
-#live preview - https://fahadhossainn.github.io/landing-page-sunnyside
+#live preview - https://fahadhossainn.github.io/form-component
